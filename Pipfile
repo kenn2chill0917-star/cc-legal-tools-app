@@ -18,11 +18,11 @@ polib = "*"
 python-dateutil = "*"
 rdflib = "*"
 transifex-python = "*"
-urllib3 = ">=2.2.2"  # Ensure dependency is secure
+urllib3 = ">=2.8.0"  # Ensure dependency is secure
 whitenoise = "*"
 
 [dev-packages]
-black = ">=24.3.0"  # Sync version with [static-analysis], below
+black = ">=26.10.1"  # Sync version with [static-analysis], below
 coverage = "*"
 django-debug-toolbar = "*"
 factory-boy = "*"
